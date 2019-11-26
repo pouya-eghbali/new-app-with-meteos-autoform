@@ -1,0 +1,8 @@
+<template name="profilesList">
+  <h1>Profiles <a href="/profile/form/insert">New</a></h1>
+  <ul>
+    {{#each data}}
+      <li>{{this.name}}</li>
+    {{/each}}
+  </ul>
+</template>
