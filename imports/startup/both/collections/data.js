@@ -41,10 +41,10 @@ Profiles.attachSchema(new SimpleSchema({
       options() {
         return [{
           label: 'No',
-          value: 0
+          value: false
         }, {
           label: 'Yes',
-          value: 1
+          value: true
         }];
       },
       firstOption: false
